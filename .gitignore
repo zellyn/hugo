@@ -26,3 +26,5 @@ resources/sunset.jpg
 
 vendor
 
+.hugo_build.lock
+public/

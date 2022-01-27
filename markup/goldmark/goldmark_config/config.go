@@ -61,6 +61,9 @@ type Extensions struct {
 	Strikethrough bool
 	Linkify       bool
 	TaskList      bool
+
+	// Extra extensions
+	Pikchr bool
 }
 
 type Renderer struct {
