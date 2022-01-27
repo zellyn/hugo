@@ -28,6 +28,7 @@ import (
 	"github.com/gohugoio/hugo/markup/goldmark/internal/extensions/attributes"
 	"github.com/gohugoio/hugo/markup/goldmark/internal/render"
 
+	pikchr "github.com/gopikchr/goldmark-pikchr"
 	"github.com/yuin/goldmark"
 	emoji "github.com/yuin/goldmark-emoji"
 	"github.com/yuin/goldmark/ast"
@@ -206,6 +207,13 @@ func newMarkdown(pcfg converter.ProviderConfig) goldmark.Markdown {
 
 	if pcfg.Conf.EnableEmoji() {
 		extensions = append(extensions, emoji.Emoji)
+	}
+
+	if cfg.Extensions.Pikchr.Enable {
+		extensions = append(extensions, &pikchr.Extender{
+			ToggleDefault:     cfg.Extensions.Pikchr.ToggleDefault,
+			LimitWidthDefault: cfg.Extensions.Pikchr.LimitWidthDefault,
+		})
 	}
 
 	if cfg.Parser.AutoHeadingID {

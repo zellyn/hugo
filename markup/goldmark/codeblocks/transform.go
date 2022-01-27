@@ -39,6 +39,10 @@ func (*Transformer) Transform(doc *ast.Document, reader text.Reader, pctx parser
 			return ast.WalkContinue, nil
 		}
 
+		if string(cb.Language(reader.Source())) == "pikchr" {
+			return ast.WalkContinue, nil
+		}
+
 		codeBlocks = append(codeBlocks, cb)
 
 		return ast.WalkContinue, nil
