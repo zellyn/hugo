@@ -42,6 +42,7 @@ require (
 	github.com/gohugoio/localescompressed v1.0.1
 	github.com/gohugoio/testmodBuilder/mods v0.0.0-20190520184928-c56af20f2e95
 	github.com/google/go-cmp v0.6.0
+	github.com/gopikchr/goldmark-pikchr v0.0.0-20240615014943-456704170d96
 	github.com/gorilla/websocket v1.5.1
 	github.com/hairyhenderson/go-codeowners v0.4.0
 	github.com/jdkato/prose v1.2.1
@@ -68,7 +69,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/tdewolff/minify/v2 v2.20.20
 	github.com/tdewolff/parse/v2 v2.7.13
-	github.com/yuin/goldmark v1.7.1
+	github.com/yuin/goldmark v1.7.2
 	github.com/yuin/goldmark-emoji v1.0.2
 	go.uber.org/automaxprocs v1.5.3
 	gocloud.dev v0.36.0
@@ -127,6 +128,7 @@ require (
 	github.com/google/wire v0.5.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
+	github.com/gopikchr/gopikchr v0.0.0-20220124224834-11b522ef4453 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/invopop/yaml v0.2.0 // indirect

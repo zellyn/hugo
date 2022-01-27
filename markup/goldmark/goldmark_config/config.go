@@ -70,6 +70,11 @@ var Default = Config{
 				Block:  [][]string{},
 			},
 		},
+		Pikchr: Pikchr{
+			Enable:            true,
+			ToggleDefault:     true,
+			LimitWidthDefault: false,
+		},
 	},
 	Renderer: Renderer{
 		Unsafe: false,
@@ -136,6 +141,9 @@ type Extensions struct {
 	LinkifyProtocol string
 	TaskList        bool
 	CJK             CJK
+
+	// Extra extensions
+	Pikchr Pikchr
 }
 
 // Typographer holds typographer configuration.
@@ -259,4 +267,15 @@ type ParserAttribute struct {
 	Title bool
 	// Enables custom attributes for blocks.
 	Block bool
+}
+
+type Pikchr struct {
+	// Whether to enable the extension
+	Enable bool
+
+	// The default setting for `toggle` attribute on pikchr blocks.
+	ToggleDefault bool
+
+	// The default setting for the `limitwidth` attribute on pikchr blocks.
+	LimitWidthDefault bool
 }
