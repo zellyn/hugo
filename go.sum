@@ -327,6 +327,10 @@ github.com/googleapis/gax-go/v2 v2.0.5/go.mod h1:DWXyrwAJ9X0FpwwEdw+IPEYBICEFu5m
 github.com/googleapis/gax-go/v2 v2.13.0 h1:yitjD5f7jQHhyDsnhKEBU52NdvvdSeGzlAnDPT0hH1s=
 github.com/googleapis/gax-go/v2 v2.13.0/go.mod h1:Z/fvTZXF8/uw7Xu5GuslPw+bplx6SS338j1Is2S+B7A=
 github.com/googleapis/google-cloud-go-testing v0.0.0-20200911160855-bcd43fbb19e8/go.mod h1:dvDLG8qkwmyD9a/MJJN3XJcT3xFxOKAvTZGvuZmac9g=
+github.com/gopikchr/goldmark-pikchr v0.0.0-20240615014943-456704170d96 h1:8eBsjFiyc9aG08uEXTM765mruksoihjTpwA/byIJXCI=
+github.com/gopikchr/goldmark-pikchr v0.0.0-20240615014943-456704170d96/go.mod h1:5B95v/HJiWlsBAtFYHx+qQVvGB6wLEhOPxtYGjVt/2A=
+github.com/gopikchr/gopikchr v0.0.0-20220124224834-11b522ef4453 h1:QMKv5eX06XUAXxxsBWltpye73fyYsBTeSg521cQbeHc=
+github.com/gopikchr/gopikchr v0.0.0-20220124224834-11b522ef4453/go.mod h1:+41qUsJjoUOvysVJxMeX4dGhnTlvjJl6HYQAC2KHsV4=
 github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg=
 github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/hairyhenderson/go-codeowners v0.5.0 h1:dpQB+hVHiRc2VVvc2BHxkuM+tmu9Qej/as3apqUbsWc=

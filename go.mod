@@ -47,6 +47,7 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/gorilla/websocket v1.5.3
 	github.com/hairyhenderson/go-codeowners v0.5.0
+	github.com/gopikchr/goldmark-pikchr v0.0.0-20240615014943-456704170d96
 	github.com/jdkato/prose v1.2.1
 	github.com/kylelemons/godebug v1.1.0
 	github.com/kyokomi/emoji/v2 v2.2.13
